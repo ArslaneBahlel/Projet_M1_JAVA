@@ -1,0 +1,15 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.arslane.bahlel.farouk.aitalibraham</groupId>
+  <artifactId>projetJavaM1</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Projet Java M1</name>
+  <description>Projet de JAVA Master 1</description>
+  <dependencies>
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.8.5</version>
+    </dependency>
+  </dependencies>
+</project>
