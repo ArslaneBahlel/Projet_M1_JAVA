@@ -1,10 +1,14 @@
 package parser;
 
-import java.util.HashMap;
 import java.util.List;
 
+@FunctionalInterface
 public interface FileParser {
 	
-	List<HashMap<String, String>> parse();
+	/**
+	 * File parse Method
+	 * @return a List with the File content
+	 */
+	List parse();
 	
 }
