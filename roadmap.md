@@ -43,12 +43,9 @@ L'exécution de ce cas d'utilisation anonymisera les données grâce au fichier 
 Feature| Ordre de développement| Cas d'utilisation|Fonctionnalité |
 |:--------:|:----|:----|:------------|
 | F1 | 1 |  UC1 & UC2 | Lire un fichier CSV à vérifier/anonymiser  | 
-| F2 | 2 |  UC1 & UC2 | Lire un fichier JSON décrivant les colonnes du fichier CSV | 
-| F3 | 10 |  UC1 & UC2 | Donner un nom au fichier CSV en output|
-| F4 | 3 |  UC1 | Lire un fichier JSON contenant la base de règles de vérification|
-| F5 | 4 |  UC1 | Vérifier automatiquement que les données du fichier CSV sont bien au format décrit|
-| F6 | 5 |  UC1 | Vérifier que les données du fichier CSV respectent les règles de vérification|
-| F7 | 6 |  UC1 | Écrire les données vérifiées dans un fichier dont le nom est donné en entrée |
-| F8 | 7 |  UC2 | Lire un fichier JSON contenant la base de règles d'anonymisation|
-| F9 | 8 |  UC2 | Anonymiser les données |
-| F10 | 9 |  UC2 | Écrire les données anonymisées dans un fichier dont le nom est donné en entrée |
+| F2 | 2 |  UC1 & UC2 | Lire un fichier JSON décrivant les colonnes du fichier CSV, contenant la base de règles de vérification et la base de règles d'anonymisation| 
+| F3 | 6 |  UC1 & UC2 | Donner un nom au fichier CSV en output|
+| F4 | 3 |  UC1 | Vérifier automatiquement que les données du fichier CSV sont bien au format décrit|
+| F5 | 4 |  UC1 | Vérifier que les données du fichier CSV respectent les règles de vérification|
+| F6 | 7 |  UC1 | Écrire les données vérifiées et anonymisées dans un fichier dont le nom est donné en entrée |
+| F7 | 5 |  UC2 | Anonymiser les données |
